@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- MYNAME -->
+      <div class="myName marginTopBottom">
+        <h1 class="christian">Christian</h1>
+        <h1 class="christian">Pasaoa</h1>
+      </div>
+
+      <!-- ABOUT -->
+      <h2 id = "aboutMe" class = "jLeft">About Me</h2>
+      <div class="about marginTopBottom">
+        
+        <div class="profilePhoto marginTopBottom box">
+            <img src="./IMGS/raikouTeletelo.png" alt="">
+
+        </div>
+        <div class="box largeFontSize aboutBody marginTopBottom">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+            debitis qui aliquam sapiente itaque voluptatibus aperiam hic laborum
+            dicta adipisci, neque labore beatae pariatur sequi eaque eligendi
+            alias facilis porro. Possimus recusandae maxime temporibus,
+            cupiditate hic magnam magni consequuntur quam fugiat iste suscipit
+            sit impedit reprehenderit architecto eveniet illum quo quibusdam
+            doloremque, eaque ratione repellendus minima quos sint saepe. Unde?
+          </p>
+        </div>
+      </div>
+
+      <!-- SUBCARDS -->
+
+      <div class="subCards marginTopBottom">
+        <a href="#skills">
+            <div class="skillsSmall button">
+                  <h2>Skills</h2>
+            </div>
+        </a>
+
+        <div class="projectsSmall button"><a href="#projects">
+            <h2>Projects</h2>
+        </a></div>
+
+        <div class="contactmeSmall button"><a href="#contactMe">
+            <h2>Contact Me</h2>
+        </a></div>
+      </div>
+
+      <!-- MAINCARDS -->
+
+      <div class="mainCards marginTopBottom">
+        <h2 id = "skills">Skills</h2>
+        <div class="skillsMain marginTopBottom box">
+          <p class="largeFontSize">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+            nesciunt! Qui nihil nulla dolor explicabo veritatis quia at ullam
+            reiciendis ad dolorem, maiores consequatur, amet, iusto laboriosam
+            quisquam laudantium enim. Incidunt vero, eaque consectetur harum
+            dolorum recusandae voluptas ullam, animi eos vitae accusamus iure ab
+            cum? Quia, temporibus deserunt voluptate iure neque iusto maxime
+            dolorum quo in nobis quisquam sit?
+          </p>
+        </div>
+            <h2 id = "projects">Projects</h2>
+        <div class="projectsMain marginTopBottom largeFontSize box">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+            debitis qui aliquam sapiente itaque voluptatibus aperiam hic laborum
+            dicta adipisci, neque labore beatae pariatur sequi eaque eligendi
+            alias facilis porro. Possimus recusandae maxime temporibus,
+            cupiditate hic magnam magni consequuntur quam fugiat iste suscipit
+            sit impedit reprehenderit architecto eveniet illum quo quibusdam
+            doloremque, eaque ratione repellendus minima quos sint saepe. Unde?
+          </p>
+        </div>
+
+        <div class="contactmeMain marginTopBottom">
+          <h2 id = "contactMe">Contact Me</h2>
+
+          
+
+          
+
+
+          
+          
+
+            <!-- FORM -->
+          <form
+            onsubmit="thankYou()"
+            class="formBox"
+            action="https://formsubmit.co/cgpdevteam@gmail.com"          
+            method="POST">
+
+           
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Projects%20and%20Portfolios/index.html#contactMe">
+
+            <input type="hidden" name="_captcha" value="false">
+
+                       
+
+            
+
+            <input
+              class="inputBox name"
+              type="text"
+              name="name"
+              placeholder="What's your name?"
+              required
+            />
+            <input
+              class="inputBox email"
+              type="text"
+              name="email address"
+              placeholder="email"
+              required
+            />
+            <textarea
+              class="inputBox query"
+              type="text"
+              placeholder="Feel free to say hi!"
+              name="comments, questions"
+            ></textarea>
+            <button class = "button" type="submit">Send</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
